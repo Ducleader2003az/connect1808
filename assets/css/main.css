@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+}
+
+a{
+  text-decoration: none !important;
+  color:  currentColor;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+body {
+  font-size: 1rem !important;
+  line-height: 1.5;
+  font-family: "RobotoCondensed",sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+:root{
+  --black: #000;
+  --black-smoke: #6d6e71;
+  --orange: #ff8609;
+  --white: #fff;
+  --menu-header-hover: #d86e00;
+  --blue: #186cbd;
+}
+
+.dropdown-toggle{
+  border: 0;
+  padding: 0;
+
+  &::after{
+    display: none;
+  }
+
+}
